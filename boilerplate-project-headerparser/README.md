@@ -1,1 +1,2 @@
-# [Request Header Parser Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/request-header-parser-microservice)
+Para usar, clonar repositorio y ejecutar server.js.
+Se podrá acceder a través del puerto 5000 en local.
