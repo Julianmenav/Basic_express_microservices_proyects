@@ -24,11 +24,9 @@ app.get("/", function (req, res) {
 // We use a router from router.js for a cleaner code, for all methods starting with url "/api"
 app.use("/api", router)
 
+var listener = app.listen(process.env.PORT, function () {
+  console.log('Your app is listening on port ' + listener.address().port);
+});
 
-// listen for requests PORT for REPLIT
-// var listener = app.listen(process.env.PORT, function () {
-//   console.log('Your app is listening on port ' + listener.address().port);
-// });
-
-//PORT EN LOCAL
-app.listen(5000, console.log("Listening on local port 5000...."))
+//To use it locally we comment the above listener
+//app.listen(5000, console.log("Listening on local port 5000..."))

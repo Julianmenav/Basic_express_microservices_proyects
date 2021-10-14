@@ -29,10 +29,9 @@ app.get("/api/whoami", function (req, res) {
   res.json({"ipaddress": ip, "language": lan, "software": os});
 });
 
+var listener = app.listen(process.env.PORT, function () {
+  console.log('Your app is listening on port ' + listener.address().port);
+});
 
-
-// listener for replit
-// var listener = app.listen(process.env.PORT, function () {
-//   console.log('Your app is listening on port ' + listener.address().port);
-// });
-app.listen(5000, console.log("Listening on local port 5000..."))
+//To use it locally we comment the above listener
+//app.listen(5000, console.log("Listening on local port 5000..."))
