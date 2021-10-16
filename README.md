@@ -82,5 +82,20 @@ The output could be something like (Count is the number of exercises for that us
   ]
 }
 ```
-
 Link: [Exercise Tracker](https://boilerplate-project-exercisetracker.julianmenav.repl.co/)
+
+## File Metadata
+
+Upload any file through the form and the output will give you metadata info about it.
+```
+{"name":"sample.txt","type":"text/plain","size":1420}
+```
+Link: [Exercise Tracker](https://boilerplate-project-filemetadata.julianmenav.repl.co/)
+
+
+
+
+
+
+
+
